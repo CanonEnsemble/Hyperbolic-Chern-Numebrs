@@ -31,7 +31,7 @@ The folder `0_ham` contains the codes and data necessary for generating the symb
 ## References
 [1] C. Sun, A. Chen, T. Bzdušek, and J. Maciejko, *Topological linear response of hyperbolic Chern insulators*, [arXiv:2406.08388](https://doi.org/10.48550/arXiv.2406.08388), 2024
 
-[2] David M. Urwyler, Patrick M. Lenggenhager, Igor Boettcher, Ronny Thomale, Titus Neupert, and Tomáš Bzdušek, *Hyperbolic Topological Band Insulators*,
+[2] D. Urwyler, P. Lenggenhager, I. Boettcher, R. Thomale, T. Neupert, and T. Bzdušek, *Hyperbolic Topological Band Insulators*,
 [Phys. Rev. Lett. 129, 246402](https://doi.org/10.1103/PhysRevLett.129.246402), 2022
 
 ## Citation
