@@ -31,10 +31,14 @@ The files in the folder `1_chern` are used to compute the Chern number associate
 
 - Projector matrices:
   
-  Inside the subfolders `G24` and `G48` are .txt files that give the projector matrices onto irreps of two translation groups of orders 24 and 48, respectively. Their character tables are listed here:
+  Inside the subfolders `G24` and `G48` are .txt files that give the projector matrices onto irreps of two translation groups of orders 24 and 48, respectively. The character table for $G24$ is given here:
   
-  
-  For example, the files `projector_G24_1_real.txt` and `projector_G24_1_imag.txt` contain the real and imaginary parts, respectively, of the projector matrices associated with the irrep `1` in the group of order 24.
+  | $G24$| 1 | 2 |
+  |-|-|-|
+  | blah| blah | blah |
+  | blah| blah | blah |
+
+   For example, the files `projector_G24_1_real.txt` and `projector_G24_1_imag.txt` contain the real and imaginary parts, respectively, of the projector matrices associated with the irrep `1` in the group of order 24.
 
 - `0_chern_number.m`:
   
