@@ -1,5 +1,5 @@
 # Hyperbolic Chern Number
-This repository contains code and data accompanying Ref. [1] for computing the Chern number for each irreducible representation (irrep) of the {8,3} Haldane model [2]. The project is divided into two main sections: Hamiltonian construction and Chern number calculation. 
+This repository contains code and data accompanying Ref. [1]. They are used to compute the Chern number for each irreducible representation (irrep) of the {8,3} Haldane model [2]. The project is divided into two main sections: Hamiltonian construction and Chern number calculation. 
 
 ## Construction of Hamiltonian 
 
