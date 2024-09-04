@@ -38,7 +38,7 @@ The files in the folder `1_chern` are used to compute the Chern number associate
 
 - `0_chern_number.m`:
   
-  This code computes the Chern number associated with an irrep, taking the projector matrices and Hamiltonian as input. It uses the function `simdiag.m` to simultaneous diagonalize the projector and Hamiltonian [3]. 
+  This code computes the Chern number associated with an irrep, taking the projector matrices and Hamiltonian as input. It uses the function `simdiag.m` to perform simultaneous diagonalization [3]. 
 
 
 
