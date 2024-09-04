@@ -31,7 +31,7 @@ The files in the folder `1_chern` are used to compute the Chern number associate
 
 - Projector matrices:
   
-  Inside the subfolders `G24` and `G48` are .txt files that give the projector matrices onto irreps of two translation groups of orders 24 and 48, respectively. The character table for $G24$ is given here:
+  Inside the subfolders `G24` and `G48` are .txt files that give the projector matrices onto irreps of two translation groups of orders 24 and 48, respectively, which we call $G24$ and $G48$. The character table for $G24$ is given here:
   
   | $G24$| 1 | 2 |
   |-|-|-|
