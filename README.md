@@ -12,7 +12,7 @@ The folder `0_ham` contains the codes and data necessary for generating the symb
   The first two columns are indices for two sites $(i, j)$. The remaining eight columns contain binary values (1 or 0), indicating if $i$ and $j$ are related by one of the four generators (and their inverses).
 
 
-- `0_cluster-Hh-flux.ipynb`:
+- `0_cluster_Hh_flux.ipynb`:
 
   - A Jupyter notebook that constructs the {8,3} Haldane model using coset tables.
   - The output is a symbolic Hamiltonian saved as a pickle file.
