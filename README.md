@@ -27,12 +27,28 @@ The folder `0_ham` contains the codes and data necessary for generating the symb
 
 
 ## Computation of Chern number
+The files in the folder `1_chern` are used to compute the Chern number associated with a particular irrep. The codes are written in MATLAB, but the necessary input files are provided as .txt files if one wants to use a different language.
+
+- Projector matrices:
+  
+  Inside the subfolders `G24` and `G48` are .txt files that give the projector matrices onto irreps of two translation groups of orders 24 and 48, respectively. Their character tables are listed here:
+  
+  
+  For example, the files `projector_G24_1_real.txt` and `projector_G24_1_imag.txt` contain the real and imaginary parts, respectively, of the projector matrices associated with the irrep `1` in the group of order 24.
+
+- `0_chern_number.m`:
+  
+  This code computes the Chern number associated with an irrep, taking the projector matrices and Hamiltonian as input. It uses the function `simdiag.m` to simultaneous diagonalize the projector and Hamiltonian [3]. 
+
+
 
 ## References
 [1] C. Sun, A. Chen, T. Bzdušek, and J. Maciejko, *Topological linear response of hyperbolic Chern insulators*, [arXiv:2406.08388](https://doi.org/10.48550/arXiv.2406.08388), 2024
 
 [2] D. Urwyler, P. Lenggenhager, I. Boettcher, R. Thomale, T. Neupert, and T. Bzdušek, *Hyperbolic Topological Band Insulators*,
 [Phys. Rev. Lett. 129, 246402](https://doi.org/10.1103/PhysRevLett.129.246402), 2022
+
+[3] Chris, *simdiag.m*, [MATLAB Central File Exchange](https://www.mathworks.com/matlabcentral/fileexchange/46794-simdiag-m), version 1.0.0.0, 2024.
 
 ## Citation
 If you use this code, please cite [this paper](https://doi.org/10.48550/arXiv.2406.08388):
