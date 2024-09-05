@@ -28,7 +28,7 @@ The folder `0_ham` contains the codes and data necessary for generating the symb
 
 
 ## Computation of Chern number
-The files in the folder `1_chern` are used to compute the Chern number associated with a particular irrep. The codes are written in MATLAB, but the necessary input files are provided as .txt files if one wants to use a different language.
+The files in the folder `1_chern` are used to compute the Chern number associated with a particular irrep. The codes are written in MATLAB, but the necessary input files are provided as .txt files for those who prefer to use a different language.
 
 - Projector matrices:
   
