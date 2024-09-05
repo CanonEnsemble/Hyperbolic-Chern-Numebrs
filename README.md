@@ -36,7 +36,7 @@ The files in the folder `1_chern` are used to compute the Chern number associate
 
   - The real and imaginary parts of the projector matrices are provided as separate .txt files. For instance, the real and imaginary parts of the projector matrix for irrep 1 of $G24$ are named `G24_projector_1_real.txt` and `G24_projector_1_imag.txt`.
 
-- `0_chern_irrep.m`:
+- `chern_irrep.m`:
   
   This code computes the Chern number associated with an irrep, taking the projector matrices and Hamiltonian as input. It uses the function `simdiag.m` to perform simultaneous diagonalization [3]. 
 
