@@ -32,11 +32,9 @@ The files in the folder `1_chern` are used to compute the Chern number associate
 
 - Projector matrices:
   
-  - Inside the subfolders `G24` and `G48` are .txt files that give the character table and projector matrices associated with each irrep. $G24$ includes eight one-dimensional irreps (labeled 1-8) and four two-dimensional irreps (labeled 9-12). $G48$ comprises eight one-dimensional irreps (labeled 1-8), six two-dimensional irreps (labeled 9-14), and one four-dimensional irrep (labeled 15). Irrep 1 corresponds to the trivial representation.
+  - Inside the subfolders `G24` and `G48` are .txt files that give the projector matrices associated with each irrep. $G24$ includes eight one-dimensional irreps (labeled 1-8) and four two-dimensional irreps (labeled 9-12). $G48$ comprises eight one-dimensional irreps (labeled 1-8), six two-dimensional irreps (labeled 9-14), and one four-dimensional irrep (labeled 15). Irrep 1 corresponds to the trivial representation.
 
-  - The real and imaginary parts of the character tables are provided separately as .txt files. For example, for $G24$, the real and imaginary parts are named `G24_character_table_real.txt` and `G24_character_table_imag.txt`, respectively. The $(i,j)$ th element corresponds to the character of an element in irrep $i$ and conjugacy class $j$.
-
-  - Similarly, the real and imaginary parts of the projector matrices are provided as separate .txt files. For instance, the real and imaginary parts of the projector matrix for irrep 1 of $G24$ are named `G24_projector_1_real.txt` and `G24_projector_1_imag.txt`.
+  - The real and imaginary parts of the projector matrices are provided as separate .txt files. For instance, the real and imaginary parts of the projector matrix for irrep 1 of $G24$ are named `G24_projector_1_real.txt` and `G24_projector_1_imag.txt`.
 
 - `0_chern_number.m`:
   
