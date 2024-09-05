@@ -53,7 +53,7 @@ The files in the folder `1_chern` are used to compute the Chern number associate
 [3] Chris, *simdiag.m*, [MATLAB Central File Exchange](https://www.mathworks.com/matlabcentral/fileexchange/46794-simdiag-m), version 1.0.0.0, 2024.
 
 ## Citation
-If you use this code, please cite [this paper](https://doi.org/10.48550/arXiv.2406.08388):
+If you use this code, please reference [this paper](https://doi.org/10.48550/arXiv.2406.08388):
 
 ```
 @article{Sun2024Topological,
